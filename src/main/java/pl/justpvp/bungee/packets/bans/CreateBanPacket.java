@@ -1,0 +1,22 @@
+package pl.justpvp.bungee.packets.bans;
+
+import lombok.Data;
+import lombok.NonNull;
+import pl.justpvp.bungee.packets.RedisPacket;
+import pl.justpvp.bungee.packets.handler.PacketHandler;
+
+import java.util.UUID;
+
+@Data
+public class CreateBanPacket extends RedisPacket {
+
+    @NonNull private UUID uuid;
+    @NonNull private String reason,admin;
+    @NonNull private long createTime,expireTime;
+    @NonNull private boolean unban;
+
+    @Override
+    public void handlePacket(PacketHandler handler) {
+        handler.handle(this);
+    }
+}

@@ -1,0 +1,5 @@
+proxies:
+  'proxy-1':
+    proxyname: 'proxy-1'
+  'proxy-2':
+    proxyname: 'proxy-2'

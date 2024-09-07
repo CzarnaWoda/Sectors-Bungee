@@ -1,0 +1,6 @@
+name: JustPvP-Bungee
+version: 1.0
+authors: [TheEasyPeasy, CzarnaWoda]
+main: pl.justpvp.bungee.BungeePlugin
+depend:
+  - BlazingPack

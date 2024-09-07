@@ -1,0 +1,12 @@
+motd:
+  playersinfo:
+    - 'JustPvP.PL'
+  protocol: '&6&lBUNGEE 2'
+  multipler: 1.0
+  description:
+    1: 'xd'
+    2: 'xddd'
+redis:
+  address: 1.1.1.1
+  password: 'asdasdas'
+  servername: 'proxy-1'
